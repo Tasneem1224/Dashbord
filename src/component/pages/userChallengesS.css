@@ -1,0 +1,85 @@
+/* الأنماط الافتراضية */
+.body h1 {
+    font-size: 50px;
+    margin-top: 30px;
+    color: #5d5d5d;
+}
+
+.form {
+    margin-top: 50px;
+    color: #3b58ec;
+    float: left;
+    text-align: left;
+    margin-left: 60px;
+    font-size: 35px;
+}
+
+.in1 {
+    width: 980px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: #acacac;
+    border: 1px solid;
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-top: -5px;
+    color: #3b58ec;
+    font-size: 25px;
+}
+
+label {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.ta1 {
+    width: 980px;
+    height: 80px;
+    border-radius: 10px;
+    border-color: #acacac;
+    color: #3b58ec;
+    font-size: 25px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .body h1 {
+        font-size: 40px; 
+    }
+
+    .form {
+        margin-top: 30px; 
+        font-size: 30px; 
+    }
+
+    .in1 {
+        width: 90%; 
+        font-size: 20px; 
+    }
+
+    .ta1 {
+        width: 90%; 
+        font-size: 20px; 
+    }
+}
+
+@media (max-width: 576px) {
+    .body h1 {
+        font-size: 30px; 
+    }
+
+    .form {
+        margin-top: 20px; 
+        font-size: 25px; 
+    }
+
+    .in1 {
+        width: 90%; 
+        font-size: 18px; 
+    }
+
+    .ta1 {
+        width: 90%; 
+        font-size: 18px; 
+    }
+}
